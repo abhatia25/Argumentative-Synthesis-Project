@@ -39,7 +39,8 @@ Partial Class frmIntro
         Me.lblTitle.Name = "lblTitle"
         Me.lblTitle.Size = New System.Drawing.Size(854, 812)
         Me.lblTitle.TabIndex = 0
-        Me.lblTitle.Text = "War Is Unnecessary" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "By: Aditya Bhatia, Aditya Tripathi, Alexander Neiberger"
+        Me.lblTitle.Text = "Countries Should Not Go To War" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "By: Aditya Bhatia, Aditya Tripathi, Alexander N" &
+    "eiberger"
         Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'MenuStrip1
@@ -49,7 +50,7 @@ Partial Class frmIntro
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(12, 4, 0, 4)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1600, 46)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1600, 44)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -62,7 +63,7 @@ Partial Class frmIntro
         'NextToolStripMenuItem
         '
         Me.NextToolStripMenuItem.Name = "NextToolStripMenuItem"
-        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 38)
+        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 36)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
         'picIntro
@@ -70,7 +71,7 @@ Partial Class frmIntro
         Me.picIntro.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.war_intro
         Me.picIntro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.picIntro.Location = New System.Drawing.Point(116, 151)
-        Me.picIntro.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.picIntro.Margin = New System.Windows.Forms.Padding(6)
         Me.picIntro.Name = "picIntro"
         Me.picIntro.Size = New System.Drawing.Size(498, 517)
         Me.picIntro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -86,7 +87,7 @@ Partial Class frmIntro
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "frmIntro"
         Me.Text = "Introduction"
         Me.MenuStrip1.ResumeLayout(False)

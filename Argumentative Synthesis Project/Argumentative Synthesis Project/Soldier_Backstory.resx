@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblBackstory.Text" xml:space="preserve">
-    <value>Hello! My name is Jake Carado, and I am a soldier for the US military since 2013. Today I will tell you all about my firsthand experiences, and why I believe war is unnecessary. I do see some benefits of going to war, as it does resolve conflicts, however the harm outweighs the benefits.</value>
+    <value>Hello! My name is Jake Carado, and I am a soldier for the US military since 2013. Today I will tell you all about my firsthand experiences, and why I believe countries should not go to war. I do see the benefits of going to war, however the harms outweighs the benefits.</value>
   </data>
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
