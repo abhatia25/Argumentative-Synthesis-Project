@@ -1,3 +1,3 @@
-﻿Public Class frmSoldier_Backstory
+﻿Public Class frmSoldierBackstory
 
 End Class
