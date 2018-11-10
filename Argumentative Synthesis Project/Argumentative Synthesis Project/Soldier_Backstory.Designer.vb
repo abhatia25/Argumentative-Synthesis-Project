@@ -23,24 +23,14 @@ Partial Class frmSoldierBackstory
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSoldierBackstory))
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblBackstory = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.soldier
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(226, 404)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(834, 614)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'lblBackstory
         '
@@ -58,21 +48,31 @@ Partial Class frmSoldierBackstory
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.NextToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1288, 42)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1288, 40)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 38)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'NextToolStripMenuItem
         '
         Me.NextToolStripMenuItem.Name = "NextToolStripMenuItem"
-        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 38)
+        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 36)
         Me.NextToolStripMenuItem.Text = "&Next"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.soldier
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Location = New System.Drawing.Point(226, 404)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(834, 614)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'frmSoldierBackstory
         '
@@ -85,9 +85,9 @@ Partial Class frmSoldierBackstory
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frmSoldierBackstory"
         Me.Text = "Soldier Backstory"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
