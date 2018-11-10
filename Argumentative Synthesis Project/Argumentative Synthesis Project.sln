@@ -5,11 +5,6 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Argumentative Synthesis Project", "Argumentative Synthesis Project\Argumentative Synthesis Project.vbproj", "{5ABC7B7D-02AD-4F5D-AB18-59C8A2232A75}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9BA6D85-A490-44E2-A802-398E86DFB2CC}"
-	ProjectSection(SolutionItems) = preProject
-		..\war_intro.jpg = ..\war_intro.jpg
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -26,63 +26,72 @@ Partial Class frmIntro
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.picIntro = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picIntro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblTitle
         '
-        Me.lblTitle.Location = New System.Drawing.Point(12, 29)
+        Me.lblTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.Location = New System.Drawing.Point(731, 44)
+        Me.lblTitle.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(776, 137)
+        Me.lblTitle.Size = New System.Drawing.Size(854, 812)
         Me.lblTitle.TabIndex = 0
-        Me.lblTitle.Text = "War Is Unnecessary" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "By: Aditya Bhatia, Aditya Tripathi, Alexander Neiberger"
+        Me.lblTitle.Text = "War Is Unnecessary" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "By: Aditya Bhatia, Aditya Tripathi, Alexander Neiberger"
         Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.NextToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(12, 4, 0, 4)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1600, 46)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'NextToolStripMenuItem
         '
         Me.NextToolStripMenuItem.Name = "NextToolStripMenuItem"
-        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
+        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 38)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
-        'PictureBox1
+        'picIntro
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(15, 169)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(773, 269)
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
+        Me.picIntro.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.war_intro
+        Me.picIntro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.picIntro.Location = New System.Drawing.Point(116, 151)
+        Me.picIntro.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.picIntro.Name = "picIntro"
+        Me.picIntro.Size = New System.Drawing.Size(498, 517)
+        Me.picIntro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.picIntro.TabIndex = 2
+        Me.picIntro.TabStop = False
         '
         'frmIntro
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.ClientSize = New System.Drawing.Size(1600, 865)
+        Me.Controls.Add(Me.picIntro)
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "frmIntro"
         Me.Text = "Introduction"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picIntro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -92,5 +101,5 @@ Partial Class frmIntro
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NextToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents picIntro As PictureBox
 End Class
