@@ -1,3 +1,3 @@
-﻿Public Class Movie
+﻿Public Class frmMovie
 
 End Class

@@ -133,8 +133,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AQWF.resx">
+      <DependentUpon>AQWF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Art.resx">
+      <DependentUpon>Art.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Intro.resx">
       <DependentUpon>Intro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movie.resx">
+      <DependentUpon>Movie.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -144,6 +153,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Soldier_Backstory.resx">
       <DependentUpon>Soldier_Backstory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Song.resx">
+      <DependentUpon>Song.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The_End.resx">
+      <DependentUpon>The_End.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
