@@ -22,6 +22,7 @@ Partial Class frmSoldierBackstory
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSoldierBackstory))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblBackstory = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
@@ -43,11 +44,12 @@ Partial Class frmSoldierBackstory
         '
         'lblBackstory
         '
+        Me.lblBackstory.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblBackstory.Location = New System.Drawing.Point(12, 40)
         Me.lblBackstory.Name = "lblBackstory"
         Me.lblBackstory.Size = New System.Drawing.Size(1264, 361)
         Me.lblBackstory.TabIndex = 1
-        Me.lblBackstory.Text = "Label1"
+        Me.lblBackstory.Text = resources.GetString("lblBackstory.Text")
         Me.lblBackstory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'MenuStrip1
@@ -56,20 +58,20 @@ Partial Class frmSoldierBackstory
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.NextToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1288, 40)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1288, 42)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 38)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'NextToolStripMenuItem
         '
         Me.NextToolStripMenuItem.Name = "NextToolStripMenuItem"
-        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 36)
+        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 38)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
         'frmSoldierBackstory
