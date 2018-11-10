@@ -1,3 +1,3 @@
-﻿Public Class AQWF
+﻿Public Class frmAQWF
 
 End Class

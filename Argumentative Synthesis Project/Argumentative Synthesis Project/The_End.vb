@@ -1,3 +1,3 @@
-﻿Public Class The_End
+﻿Public Class frmTheEnd
 
 End Class

@@ -1,3 +1,3 @@
-﻿Public Class Song
+﻿Public Class frmSong
 
 End Class

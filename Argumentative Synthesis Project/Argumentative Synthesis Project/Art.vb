@@ -1,3 +1,3 @@
-﻿Public Class Art
+﻿Public Class frmArt
 
 End Class
