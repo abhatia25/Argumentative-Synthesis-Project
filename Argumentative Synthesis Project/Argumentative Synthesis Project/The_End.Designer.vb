@@ -33,14 +33,14 @@ Partial Class frmTheEnd
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 40)
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 42)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 38)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'frmTheEnd
