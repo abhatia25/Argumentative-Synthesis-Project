@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class frmTheEnd
+Partial Class frmBenefits
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -44,7 +44,7 @@ Partial Class frmTheEnd
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
-        'frmTheEnd
+        'frmBenefits
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -52,8 +52,8 @@ Partial Class frmTheEnd
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Name = "frmTheEnd"
-        Me.Text = "The End"
+        Me.Name = "frmBenefits"
+        Me.Text = "Benefits of No War"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
