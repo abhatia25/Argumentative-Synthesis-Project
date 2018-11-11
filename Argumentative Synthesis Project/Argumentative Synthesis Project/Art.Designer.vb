@@ -25,6 +25,7 @@ Partial Class frmArt
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.lblArtData = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -51,11 +52,21 @@ Partial Class frmArt
         Me.NextToolStripMenuItem.Size = New System.Drawing.Size(43, 22)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
+        'lblArtData
+        '
+        Me.lblArtData.Location = New System.Drawing.Point(12, 17)
+        Me.lblArtData.Name = "lblArtData"
+        Me.lblArtData.Size = New System.Drawing.Size(698, 417)
+        Me.lblArtData.TabIndex = 2
+        Me.lblArtData.Text = "Label1"
+        Me.lblArtData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frmArt
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(722, 450)
+        Me.Controls.Add(Me.lblArtData)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
@@ -71,4 +82,5 @@ Partial Class frmArt
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NextToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents lblArtData As Label
 End Class

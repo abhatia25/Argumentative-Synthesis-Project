@@ -25,6 +25,7 @@ Partial Class frmAQWF
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.lblAQWFData = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -51,11 +52,21 @@ Partial Class frmAQWF
         Me.NextToolStripMenuItem.Size = New System.Drawing.Size(43, 22)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
+        'lblAQWFData
+        '
+        Me.lblAQWFData.Location = New System.Drawing.Point(12, 17)
+        Me.lblAQWFData.Name = "lblAQWFData"
+        Me.lblAQWFData.Size = New System.Drawing.Size(698, 417)
+        Me.lblAQWFData.TabIndex = 2
+        Me.lblAQWFData.Text = "Label1"
+        Me.lblAQWFData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frmAQWF
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(722, 450)
+        Me.Controls.Add(Me.lblAQWFData)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
@@ -71,4 +82,5 @@ Partial Class frmAQWF
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NextToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents lblAQWFData As Label
 End Class
