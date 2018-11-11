@@ -34,10 +34,9 @@ Partial Class frmIntro
         'lblTitle
         '
         Me.lblTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTitle.Location = New System.Drawing.Point(731, 44)
-        Me.lblTitle.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lblTitle.Location = New System.Drawing.Point(366, 54)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(854, 812)
+        Me.lblTitle.Size = New System.Drawing.Size(344, 391)
         Me.lblTitle.TabIndex = 0
         Me.lblTitle.Text = "Countries Should Not Go To War" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "By: Aditya Bhatia, Aditya Tripathi, Alexander N" &
     "eiberger"
@@ -49,45 +48,41 @@ Partial Class frmIntro
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.NextToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(12, 4, 0, 4)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1600, 44)
+        Me.MenuStrip1.Size = New System.Drawing.Size(722, 24)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'NextToolStripMenuItem
         '
         Me.NextToolStripMenuItem.Name = "NextToolStripMenuItem"
-        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 36)
+        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
         'picIntro
         '
         Me.picIntro.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.war_intro
         Me.picIntro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.picIntro.Location = New System.Drawing.Point(116, 151)
-        Me.picIntro.Margin = New System.Windows.Forms.Padding(6)
+        Me.picIntro.Location = New System.Drawing.Point(12, 54)
         Me.picIntro.Name = "picIntro"
-        Me.picIntro.Size = New System.Drawing.Size(498, 517)
-        Me.picIntro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.picIntro.Size = New System.Drawing.Size(249, 384)
         Me.picIntro.TabIndex = 2
         Me.picIntro.TabStop = False
         '
         'frmIntro
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1600, 865)
+        Me.ClientSize = New System.Drawing.Size(722, 450)
         Me.Controls.Add(Me.picIntro)
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "frmIntro"
         Me.Text = "Introduction"
         Me.MenuStrip1.ResumeLayout(False)

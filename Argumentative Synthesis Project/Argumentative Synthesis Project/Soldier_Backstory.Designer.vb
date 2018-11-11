@@ -35,9 +35,10 @@ Partial Class frmSoldierBackstory
         'lblBackstory
         '
         Me.lblBackstory.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblBackstory.Location = New System.Drawing.Point(12, 40)
+        Me.lblBackstory.Location = New System.Drawing.Point(6, 21)
+        Me.lblBackstory.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblBackstory.Name = "lblBackstory"
-        Me.lblBackstory.Size = New System.Drawing.Size(1264, 361)
+        Me.lblBackstory.Size = New System.Drawing.Size(632, 188)
         Me.lblBackstory.TabIndex = 1
         Me.lblBackstory.Text = resources.GetString("lblBackstory.Text")
         Me.lblBackstory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -48,41 +49,44 @@ Partial Class frmSoldierBackstory
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.NextToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1288, 40)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(3, 1, 0, 1)
+        Me.MenuStrip1.Size = New System.Drawing.Size(644, 24)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'NextToolStripMenuItem
         '
         Me.NextToolStripMenuItem.Name = "NextToolStripMenuItem"
-        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 36)
+        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(43, 22)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.soldier
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(226, 404)
+        Me.PictureBox1.Location = New System.Drawing.Point(168, 211)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(834, 614)
+        Me.PictureBox1.Size = New System.Drawing.Size(287, 236)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'frmSoldierBackstory
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1288, 1030)
+        Me.ClientSize = New System.Drawing.Size(644, 458)
         Me.Controls.Add(Me.lblBackstory)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frmSoldierBackstory"
         Me.Text = "Soldier Backstory"
         Me.MenuStrip1.ResumeLayout(False)
