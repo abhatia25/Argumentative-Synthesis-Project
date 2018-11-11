@@ -38,7 +38,7 @@ Partial Class frmSoldierBackstory
         Me.lblBackstory.Location = New System.Drawing.Point(6, 21)
         Me.lblBackstory.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblBackstory.Name = "lblBackstory"
-        Me.lblBackstory.Size = New System.Drawing.Size(632, 188)
+        Me.lblBackstory.Size = New System.Drawing.Size(705, 188)
         Me.lblBackstory.TabIndex = 1
         Me.lblBackstory.Text = resources.GetString("lblBackstory.Text")
         Me.lblBackstory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -50,7 +50,7 @@ Partial Class frmSoldierBackstory
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(3, 1, 0, 1)
-        Me.MenuStrip1.Size = New System.Drawing.Size(644, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(722, 24)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -70,7 +70,7 @@ Partial Class frmSoldierBackstory
         '
         Me.PictureBox1.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.soldier
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(168, 211)
+        Me.PictureBox1.Location = New System.Drawing.Point(218, 203)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(287, 236)
@@ -81,7 +81,7 @@ Partial Class frmSoldierBackstory
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(644, 458)
+        Me.ClientSize = New System.Drawing.Size(722, 450)
         Me.Controls.Add(Me.lblBackstory)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
