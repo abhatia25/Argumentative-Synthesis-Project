@@ -71,7 +71,7 @@ Partial Class frmSoldierBackstory
         Me.PictureBox1.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.soldier
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(218, 203)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(287, 236)
         Me.PictureBox1.TabIndex = 0
@@ -86,7 +86,7 @@ Partial Class frmSoldierBackstory
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmSoldierBackstory"
         Me.Text = "Soldier Backstory"
         Me.MenuStrip1.ResumeLayout(False)

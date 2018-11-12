@@ -22,6 +22,7 @@ Partial Class frmSong
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSong))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -54,11 +55,12 @@ Partial Class frmSong
         '
         'lblSongData
         '
+        Me.lblSongData.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSongData.Location = New System.Drawing.Point(12, 24)
         Me.lblSongData.Name = "lblSongData"
         Me.lblSongData.Size = New System.Drawing.Size(698, 417)
         Me.lblSongData.TabIndex = 1
-        Me.lblSongData.Text = "Label1"
+        Me.lblSongData.Text = resources.GetString("lblSongData.Text")
         Me.lblSongData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmSong
@@ -69,7 +71,7 @@ Partial Class frmSong
         Me.Controls.Add(Me.lblSongData)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmSong"
         Me.Text = "Song"
         Me.MenuStrip1.ResumeLayout(False)

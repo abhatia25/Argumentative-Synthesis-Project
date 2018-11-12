@@ -22,6 +22,7 @@ Partial Class frmAQWF
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmAQWF))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -54,11 +55,12 @@ Partial Class frmAQWF
         '
         'lblAQWFData
         '
+        Me.lblAQWFData.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAQWFData.Location = New System.Drawing.Point(12, 17)
         Me.lblAQWFData.Name = "lblAQWFData"
         Me.lblAQWFData.Size = New System.Drawing.Size(698, 417)
         Me.lblAQWFData.TabIndex = 2
-        Me.lblAQWFData.Text = "Label1"
+        Me.lblAQWFData.Text = resources.GetString("lblAQWFData.Text")
         Me.lblAQWFData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmAQWF
@@ -69,7 +71,7 @@ Partial Class frmAQWF
         Me.Controls.Add(Me.lblAQWFData)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmAQWF"
         Me.Text = "AQWF"
         Me.MenuStrip1.ResumeLayout(False)

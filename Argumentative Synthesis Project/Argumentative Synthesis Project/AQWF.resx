@@ -120,4 +120,7 @@
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="lblAQWFData.Text" xml:space="preserve">
+    <value>Another thing I commonly see is that officers are being treated better than typical soldiers. Officers are given treatment such as morphia, and warm food. Meanwhile, the soldiers are given very little treatment, and cold, dry food. </value>
+  </data>
 </root>

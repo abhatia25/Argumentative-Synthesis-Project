@@ -85,6 +85,12 @@
     <Compile Include="Art.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Conclusion.Designer.vb">
+      <DependentUpon>Conclusion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Conclusion.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Intro.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -125,12 +131,6 @@
     <Compile Include="Song.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="The_End.Designer.vb">
-      <DependentUpon>The_End.vb</DependentUpon>
-    </Compile>
-    <Compile Include="The_End.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AQWF.resx">
@@ -138,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Art.resx">
       <DependentUpon>Art.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conclusion.resx">
+      <DependentUpon>Conclusion.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Intro.resx">
       <DependentUpon>Intro.vb</DependentUpon>
@@ -156,9 +159,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Song.resx">
       <DependentUpon>Song.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="The_End.resx">
-      <DependentUpon>The_End.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
