@@ -120,4 +120,9 @@
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="lblArtData.Text" xml:space="preserve">
+    <value>I saw firsthand how war can hit anyone, not just those who are fighting. Many times, innocent people such as medics were killed by war, just for trying to help others. 
+
+I also saw how war makes all soldiers the same and dehumanizes us, referring to us as a unit rather than individuals.</value>
+  </data>
 </root>
