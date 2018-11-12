@@ -120,4 +120,9 @@
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="lblConclusion.Text" xml:space="preserve">
+    <value>This may seem like a small issue to all of you, but we as soldiers are giving our lives to our country. We are putting everything on the line so that you can sit in this seat today. Considering all the hardships and disrespect we face, we deserve better financial benefit. We deserve to be able to pay our bills and provide for our family.
+
+And believe it or not, giving us more pay will help you too. We help the American people and more pay to us equals benefit to you too.</value>
+  </data>
 </root>
