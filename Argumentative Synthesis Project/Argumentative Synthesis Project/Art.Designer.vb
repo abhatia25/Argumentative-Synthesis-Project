@@ -71,7 +71,7 @@ Partial Class frmArt
         Me.Controls.Add(Me.lblArtData)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmArt"
         Me.Text = "Art"
         Me.MenuStrip1.ResumeLayout(False)

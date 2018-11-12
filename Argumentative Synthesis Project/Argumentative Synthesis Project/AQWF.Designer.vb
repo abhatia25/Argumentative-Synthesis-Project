@@ -36,42 +36,42 @@ Partial Class frmAQWF
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.NextToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(3, 1, 0, 1)
-        Me.MenuStrip1.Size = New System.Drawing.Size(722, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1444, 40)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'NextToolStripMenuItem
         '
         Me.NextToolStripMenuItem.Name = "NextToolStripMenuItem"
-        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(43, 22)
+        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 36)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
         'lblAQWFData
         '
         Me.lblAQWFData.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAQWFData.Location = New System.Drawing.Point(12, 17)
+        Me.lblAQWFData.Location = New System.Drawing.Point(24, 33)
+        Me.lblAQWFData.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lblAQWFData.Name = "lblAQWFData"
-        Me.lblAQWFData.Size = New System.Drawing.Size(698, 417)
+        Me.lblAQWFData.Size = New System.Drawing.Size(1396, 802)
         Me.lblAQWFData.TabIndex = 2
         Me.lblAQWFData.Text = resources.GetString("lblAQWFData.Text")
         Me.lblAQWFData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmAQWF
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(722, 450)
+        Me.ClientSize = New System.Drawing.Size(1444, 865)
         Me.Controls.Add(Me.lblAQWFData)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmAQWF"
         Me.Text = "AQWF"
         Me.MenuStrip1.ResumeLayout(False)
