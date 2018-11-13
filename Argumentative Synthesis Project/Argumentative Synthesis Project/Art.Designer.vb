@@ -36,42 +36,43 @@ Partial Class frmArt
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.NextToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1444, 40)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(3, 1, 0, 1)
+        Me.MenuStrip1.Size = New System.Drawing.Size(722, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'NextToolStripMenuItem
         '
         Me.NextToolStripMenuItem.Name = "NextToolStripMenuItem"
-        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(77, 36)
+        Me.NextToolStripMenuItem.Size = New System.Drawing.Size(43, 22)
         Me.NextToolStripMenuItem.Text = "&Next"
         '
         'lblArtData
         '
-        Me.lblArtData.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblArtData.Location = New System.Drawing.Point(24, 33)
-        Me.lblArtData.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.lblArtData.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblArtData.Font = New System.Drawing.Font("Modern No. 20", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblArtData.Location = New System.Drawing.Point(12, 17)
         Me.lblArtData.Name = "lblArtData"
-        Me.lblArtData.Size = New System.Drawing.Size(1396, 802)
+        Me.lblArtData.Size = New System.Drawing.Size(698, 417)
         Me.lblArtData.TabIndex = 2
         Me.lblArtData.Text = resources.GetString("lblArtData.Text")
         Me.lblArtData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmArt
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1444, 865)
+        Me.ClientSize = New System.Drawing.Size(722, 450)
         Me.Controls.Add(Me.lblArtData)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frmArt"
         Me.Text = "Art"
         Me.MenuStrip1.ResumeLayout(False)

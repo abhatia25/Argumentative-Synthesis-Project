@@ -55,7 +55,8 @@ Partial Class frmSong
         '
         'lblSongData
         '
-        Me.lblSongData.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSongData.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblSongData.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSongData.Location = New System.Drawing.Point(12, 24)
         Me.lblSongData.Name = "lblSongData"
         Me.lblSongData.Size = New System.Drawing.Size(698, 417)

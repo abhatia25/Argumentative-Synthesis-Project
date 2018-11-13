@@ -22,6 +22,7 @@ Partial Class frmIntro
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmIntro))
         Me.lblTitle = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -33,10 +34,11 @@ Partial Class frmIntro
         '
         'lblTitle
         '
-        Me.lblTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTitle.Location = New System.Drawing.Point(366, 54)
+        Me.lblTitle.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblTitle.Font = New System.Drawing.Font("Modern No. 20", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.Location = New System.Drawing.Point(408, 55)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(344, 391)
+        Me.lblTitle.Size = New System.Drawing.Size(401, 421)
         Me.lblTitle.TabIndex = 0
         Me.lblTitle.Text = "Soldiers Deserve Better Pay" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "By: Aditya Bhatia, Aditya Tripathi, Alexander Neib" &
     "erger"
@@ -48,7 +50,8 @@ Partial Class frmIntro
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem, Me.NextToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(722, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(842, 24)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -66,22 +69,24 @@ Partial Class frmIntro
         '
         'picIntro
         '
-        Me.picIntro.BackgroundImage = Global.Argumentative_Synthesis_Project.My.Resources.Resources.war_intro
+        Me.picIntro.BackgroundImage = CType(resources.GetObject("picIntro.BackgroundImage"), System.Drawing.Image)
         Me.picIntro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.picIntro.Location = New System.Drawing.Point(12, 54)
+        Me.picIntro.Location = New System.Drawing.Point(21, 55)
         Me.picIntro.Name = "picIntro"
-        Me.picIntro.Size = New System.Drawing.Size(249, 384)
+        Me.picIntro.Size = New System.Drawing.Size(358, 414)
         Me.picIntro.TabIndex = 2
         Me.picIntro.TabStop = False
         '
         'frmIntro
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(722, 450)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(842, 485)
         Me.Controls.Add(Me.picIntro)
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Font = New System.Drawing.Font("Modern No. 20", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frmIntro"
         Me.Text = "Introduction"
